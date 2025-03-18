@@ -24,9 +24,9 @@ const Doctor = ({ id }) => {
 
   return (
     <Layout className="w-full space-y-6" >
-      <div className="w-full flex items-center justify-between" id={id}>
-        <h1 className="text-2xl text-neutral-700 font-semibold">
-          Conoce a nuestros especialistas
+      <div className="w-full flex items-center md:justify-between justify-center" id={id}>
+        <h1 className="text-2xl text-neutral-700 font-serif">
+          NUESTROS ESPECIALISTAS
         </h1>
       </div>
 

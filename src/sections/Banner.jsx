@@ -14,13 +14,13 @@ const Banner = () => {
                             CUIDA TU SONRISA
                         </h1>
                         <p className="md:text-lg text-sm text-white font-normal">
-                        ¿Sabías que un control dental regular no solo previene problemas bucales, sino que también mantiene tu sonrisa radiante? En nuestra clínica, estamos comprometidos a ayudarte a mantener una boca sana y una sonrisa que ilumine cada momento.
+                        ¿Sabías que un control dental regular no solo previene problemas bucales, sino que también mantiene tu sonrisa radiante?<p/> En nuestra clínica, estamos comprometidos a ayudarte a mantener una boca sana y una sonrisa que ilumine cada momento.
                         </p>
                     </div>
 
-                    <button className="w-fit md:px-16 px-12 md:py-4 py-3 rounded-full text-lg text-neutral-700 font-medium bg-neutral-50 border-2 border-neutral-50 hover:bg-transparent hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
+                    <a href="https://wa.me/3865547356?text=Hola!%20me%20gustaría%20agendar%20una%20cita%20" target="_blank" className="w-fit md:px-16 px-12 md:py-4 py-3 rounded-full text-lg text-neutral-700 font-medium bg-neutral-50 border-2 border-neutral-50 hover:bg-transparent hover:text-neutral-50 backdrop-blur flex items-center gap-x-2 ease-in-out duration-300">
                         AGENDA TU TURNO
-                    </button>
+                    </a>
                 </div>
             </Layout>
         </div>

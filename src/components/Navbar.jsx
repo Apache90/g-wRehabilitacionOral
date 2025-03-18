@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "Home" },
+    { href: "#home", label: "Inicio" },
     { href: "#nosotros", label: "Nosotros" },
     { href: "#servicios", label: "Servicios" },
     { href: "#doctores", label: "Profesionales" },
@@ -77,9 +77,9 @@ const Navbar = () => {
 
         {/* BUTTONS */}
         <div className="flex md:items-center items-start gap-x-5 md:flex-row flex-col text-base font-medium text-gray-800">
-          <Link to="" className="btn font-bold w-fit px-6 py-2 rounded-full bg-gray-400 hover:bg-blue-400 ease-in-out duration-300">
+          <a href="https://wa.me/3865547356?text=Hola!%20me%20gustaría%20agendar%20una%20cita%20" target="_blank" className="btn font-bold w-fit px-6 py-2 rounded-full bg-gray-300 hover:bg-blue-900 hover:text-gray-300 ease-in-out duration-300">
             SACA TURNO
-          </Link>
+          </a>
         </div>
       </div>
     </div>

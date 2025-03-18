@@ -24,29 +24,33 @@ const Hero = ({ id }) => {
           <SwiperSlide>
             <div className="w-full relative h-[calc(100vh-8ch)]">
               <div className="w-full h-full">
+              <img
+                  src={img2}
+                  alt=""
+                  className="h-full w-full object-cover object-right md:hidden"
+                />
                 <img
                   src={img2}
                   alt=""
                   className="w-full h-full object-cover"
                 />
               </div>
-
               <div className="absolute top-0 left-0 w-full h-full flex items-start justify-center flex-col  z-30">
                 <Layout>
                   <div className="bg-blue-800/40 border border-blue-200/50 backdrop-blur px-8 py-10 rounded-xl md:w-2/5 w-full space-y-7">
                     <div className="space-y-4">
-                      <h1 className="md:text-4xl text-3xl text-blue-50 font-bold leading-[1.3]">
-                        Hola soy Pablo
+                      <h1 className="md:text-4xl text-4xl text-blue-50 font-bold leading-[1.3]">
+                        Hola! Soy el Dr. Pablo Wyss
                       </h1>
-                      <p className="text-base text-neutral-300 font-normal line-clamp-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint et tenetur vitae omnis odit ratione hic illo, distinctio libero animi!
+                      <p className="text-base text-neutral-300 font-normal line-clamp-7">
+                      Mi objetivo es ofrecerte tratamientos personalizados y de alta calidad, combinando técnicas avanzadas con un trato cercano y profesional. Estoy aquí para ayudarte a recuperar la salud y la estética de tu sonrisa. ¡No dudes en contactarme para agendar tu consulta!
                       </p>
                     </div>
 
-                    <button className="w-fit px-8 py-3 text-base text-neutral-700 font-medium rounded-xl bg-neutral-50 borde-2 border-neutral-500 hover:bg-neutral-700 hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
-                      Nuestros servicios
+                    <a href="#servicios" className="w-fit px-8 py-3 text-base text-neutral-700 font-medium rounded-xl bg-neutral-50 borde-2 border-neutral-500 hover:bg-neutral-700 hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
+                      Nuestros tratamientos
                       <FiChevronsRight className="text-xl pt-0.5" />
-                    </button>
+                    </a>
                   </div>
                 </Layout>
               </div>
@@ -55,6 +59,11 @@ const Hero = ({ id }) => {
           <SwiperSlide>
             <div className="w-full relative h-[calc(100vh-8ch)]">
               <div className="w-full h-full">
+              <img
+                  src={img3}
+                  alt=""
+                  className="h-full w-full object-cover object-right md:hidden"
+                />
                 <img
                   src={img3}
                   alt=""
@@ -69,15 +78,15 @@ const Hero = ({ id }) => {
                       <h1 className="md:text-4xl text-3xl text-blue-50 font-bold leading-[1.3]">
                         Contamos con tecnologia de punta
                       </h1>
-                      <p className="text-base text-neutral-300 font-normal line-clamp-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint et tenetur vitae omnis odit ratione hic illo, distinctio libero animi!
+                      <p className="text-base text-neutral-300 font-normal line-clamp-7">
+                      Contamos con equipos de diagnóstico digital, scanners intraorales 3D, y sistemas de planificación digital para garantizar precisión y resultados óptimos en cada procedimiento. Nuestro compromiso es brindarte una experiencia cómoda, segura y eficiente.
                       </p>
                     </div>
 
-                    <button className="w-fit px-8 py-3 text-base text-neutral-700 font-medium rounded-xl bg-neutral-50 borde-2 border-neutral-500 hover:bg-transparent hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
-                      Nuestros servicios
+                    <a href="#servicios" className="w-fit px-8 py-3 text-base text-neutral-700 font-medium rounded-xl bg-neutral-50 borde-2 border-neutral-500 hover:bg-transparent hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
+                    Nuestros tratamientos
                       <FiChevronsRight className="text-xl pt-0.5" />
-                    </button>
+                    </a>
                   </div>
                 </Layout>
               </div>
@@ -86,6 +95,11 @@ const Hero = ({ id }) => {
           <SwiperSlide>
             <div className="w-full relative h-[calc(100vh-8ch)]">
               <div className="w-full h-full">
+              <img
+                  src={img1}
+                  alt=""
+                  className="h-full w-full object-cover object-right md:hidden"
+                />
                 <img
                   src={img1}
                   alt=""
@@ -97,18 +111,18 @@ const Hero = ({ id }) => {
                 <Layout>
                   <div className="bg-blue-800/40 border border-blue-200/50 backdrop-blur px-8 py-10 rounded-xl md:w-2/5 w-full space-y-7">
                     <div className="space-y-4">
-                      <h1 className="md:text-4xl text-3xl text-blue-50 font-bold leading-[1.3]">
-                        Una tradicion de profesionales
+                      <h1 className="md:text-4xl text-2xl text-blue-50 font-bold leading-[1.3]">
+                      Tradición y excelencia en cuidado dental
                       </h1>
-                      <p className="text-base text-neutral-300 font-normal line-clamp-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint et tenetur vitae omnis odit ratione hic illo, distinctio libero animi!
+                      <p className="text-base text-neutral-300 font-normal line-clamp-7">
+                      Nuestro centro odontológico es un legado de dedicación y profesionalismo, respaldado por la experiencia de una tradición familiar única. hemos unido la sabiduría de años de práctica con las técnicas más modernas para ofrecerte un servicio integral y personalizado.
                       </p>
                     </div>
 
-                    <button className="w-fit px-8 py-3 text-base text-neutral-700 font-medium rounded-xl bg-neutral-50 borde-2 border-neutral-500 hover:bg-transparent hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
-                      Nuestros servicios
+                    <a href="#servicios" className="w-fit px-8 py-3 text-base text-neutral-700 font-medium rounded-xl bg-neutral-50 borde-2 border-neutral-500 hover:bg-transparent hover:text-neutral-50 hover:border-neutral-50 flex items-center gap-x-2 ease-in-out duration-300">
+                      Nuestros tratamientos
                       <FiChevronsRight className="text-xl pt-0.5" />
-                    </button>
+                    </a>
                   </div>
                 </Layout>
               </div>

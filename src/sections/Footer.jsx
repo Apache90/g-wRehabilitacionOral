@@ -33,21 +33,24 @@ const Footer = () => {
 
             <div className="flex items-center gap-5 w-full">
               <Link
-                to=""
+                to="https://www.instagram.com/gyw_rehabilitacion/"
+                target="_blank"
                 className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center hover:bg-blue-500/20 ease-in-out duration-300"
               >
                 <FaInstagram className="text-blue-500 text-lg" />
               </Link>
 
               <Link
-                to=""
+                to="https://www.facebook.com/GyW.centro.de.rehabilitacion"
+                target="_blank"
                 className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center hover:bg-blue-500/20 ease-in-out duration-300"
               >
                 <FaFacebookSquare className="text-blue-500 text-lg" />
               </Link>
 
               <Link
-                to=""
+                to="https://wa.me/3865547356?text=Hola!%20me%20gustaría%20agendar%20una%20cita%20"
+                target="_blank"
                 className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center hover:bg-blue-500/20 ease-in-out duration-300"
               >
                 <FaWhatsapp className="text-blue-500 text-lg" />

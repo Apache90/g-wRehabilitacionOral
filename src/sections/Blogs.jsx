@@ -29,9 +29,9 @@ const Blogs = ({ id }) => {
 
   return (
     <Layout className="w-full space-y-6">
-      <div className="w-full flex items-center justify-between" id={id}>
-        <h1 className="text-2xl text-neutral-700 font-semibold">
-          Noticias
+      <div className="w-full flex items-center md:justify-between justify-center" id={id}>
+        <h1 className="text-2xl text-neutral-700 font-serif">
+          NOTICIAS
         </h1>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-10" id={id}>

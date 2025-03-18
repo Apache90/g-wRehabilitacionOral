@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import logoGris from "../assets/logoGris.png"
+import img4 from "../assets/img4.jpg"
 
 const Apointment = ({ id }) => {
   return (
@@ -10,7 +11,7 @@ const Apointment = ({ id }) => {
           {/* Div con la imagen y los horarios */}
           <div className="md:w-1/2 w-full rounded-xl overflow-hidden relative">
             <img
-              src="https://cdn.pixabay.com/photo/2021/11/21/06/16/female-6813278_640.png"
+              src={img4}
               alt=""
               className="w-full md:aspect-[3/4] aspect-2/3 object-cover object-center"
             />
@@ -51,6 +52,9 @@ const Apointment = ({ id }) => {
                     Para ser atendido por urgencias dentales, es necesario
                     comunicarse previamente al número de teléfono que aparece en
                     la sección de contacto.
+                  </p>
+                  <p className="text-sm text-neutral-100 font-normal">
+                    Para realizarse una radiografia panoramica es por orden de llegada.
                   </p>
                 </div>
               </div>
